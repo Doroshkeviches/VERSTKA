@@ -86,4 +86,16 @@ function validation() {
 // router.post('/setMessage', controller.setMessage);
 // module.exports = router;
 
+// Сам запрос 
+// function setMessage(name, lastName, message) {
+//     const requestOptions = {
+//         method: 'POST',
+//         headers: { 'Content-Type': 'application/json' },
+//         body: JSON.stringify({ name, lastName, message })
+//     };
+//     fetch(url + '/setMessage', requestOptions)
+//         .then(response => response.json())
+//         .then(data => console.log(data));
+// }
+
 // Думаю что для этого задания хватит))
